@@ -11,7 +11,7 @@ body {
   margin: 15%;
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 375px) {
   body {
     margin: 0;
   }
@@ -43,7 +43,7 @@ h3 {
 
 }
 
-@media only screen and (max-width:376px) {
+@media only screen and (max-width:375px) {
   #main_container {
     padding-top: 0px;
   }
@@ -68,7 +68,7 @@ header {
   margin-top: 5%;
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 375px) {
   header {
     margin-top: 0;
   }
@@ -81,7 +81,7 @@ img {
   object-fit: contain;
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 375px) {
   img {
     width: 100%;
     border-radius: 0%;
