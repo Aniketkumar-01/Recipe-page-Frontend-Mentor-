@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+
+body {
+  width: auto;
+  background-color: hsl(30, 54%, 90%);
+  margin: 15%;
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    margin: 0;
+  }
+}
+
+p {
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+
+}
+
+h3 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+}
+
+#main_container {
+  height: 100%;
+  background-color: white;
+  border-radius: 5%;
+  padding-top: 1px;
+  padding-bottom: 5%;
+
+}
+
+@media only screen and (max-width:375px) {
+  #main_container {
+    padding-top: 0px;
+  }
+}
+
+main {
+  padding: 0 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  margin: 40px 0 15px 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+@media only screen and (max-width: 375px) {
+  header {
+    margin-top: 0;
+  }
+}
+
+img {
+  width: 90%;
+  height: auto;
+  border-radius: 2%;
+  object-fit: contain;
+}
+
+@media only screen and (max-width: 375px) {
+  img {
+    width: 100%;
+    border-radius: 0%;
+  }
+}
+
+#prep_time_container {
+  background-color: hsl(330, 100%, 98%);
+  padding: 25px;
+}
+
+h3 {
+  color: hsl(332, 51%, 32%);
+}
+
+#prep_time_container ul {
+  list-style-position: outside;
+  margin: 10px 24px;
+}
+
+#prep_time_container li {
+  padding-left: 15px;
+}
+
+h2 {
+  color: hsl(14, 45%, 36%);
+  padding: 20px 0;
+}
+
+section {
+  padding: 30px;
+}
+
+li,
+p {
+  padding: 4px;
+  color: hsl(24, 5%, 18%);
+}
+
+#nutrition p {
+  padding: 0 0 5px 0;
+}
+
+ol,
+ul {
+  margin-left: 2%;
+}
+
+table {
+  border-collapse: collapse;
+  border-top: 0 white;
+  border-right: 0 white;
+  border-left: 0 white;
+  width: 90%;
+  height: 140px;
+}
+
+.weights {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
